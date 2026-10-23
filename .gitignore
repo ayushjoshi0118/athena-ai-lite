@@ -1,0 +1,42 @@
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets & Environment variables
+.env
+.env*.local
+*.key
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Indexes and Binary Data
+*.faiss
+data/indexes/*
+!data/indexes/.gitkeep
+
+# Uploaded User Documents (keep sample_syllabus.pdf and .gitkeep)
+data/uploads/*
+!data/uploads/.gitkeep
+!data/uploads/sample_syllabus.pdf
+
+# Streamlit local state
+.streamlit/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

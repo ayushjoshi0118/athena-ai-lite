@@ -1,0 +1,22 @@
+# Athena AI Lite - Educational Dependencies
+# Kept minimal and focused for learning core RAG and Multi-Agent concepts
+
+# UI
+streamlit>=1.35.0
+
+# Document Processing
+pymupdf>=1.24.0
+
+# Vector Embeddings and Indexing
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+# Official LLM SDK (Google Gemini)
+google-genai>=0.1.1
+
+# Environment and Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Testing
+pytest>=8.0.0

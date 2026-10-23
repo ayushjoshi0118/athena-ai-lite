@@ -1,0 +1,9 @@
+{
+  "learning_level": "Beginner",
+  "answer_length": "Balanced",
+  "include_examples": true,
+  "include_web_search": false,
+  "top_k": 4,
+  "chunk_size": 500,
+  "chunk_overlap": 50
+}
